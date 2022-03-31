@@ -1,12 +1,4 @@
 .row {
-                /*the after is from vid 26 at ~7:40+ (moved into a mixin at 8:30)
-    &::after {
-        content: "";
-        clear: both;
-        display: table;
-    }
-
-    */
 
     @mixin clearfix;
 
@@ -14,7 +6,6 @@
         margin-right: -65px;
     }
 
-                /* the gutters > div part is from vid 26 at ~10:19 - look at all of last part of vid... */
     &--gutters > div {
         padding-right: 65px;
     }
