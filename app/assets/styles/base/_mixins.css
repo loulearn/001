@@ -16,7 +16,6 @@
     }
 }
 
-/* the after is from vid 26 at ~7:40+ (moved into a mixin at 8:30) */
 @define-mixin clearfix {
     &::after {
         content: "";
