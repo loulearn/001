@@ -2,7 +2,7 @@
     overflow: hidden; /* see vid 26 at ~15:00 - this is about padding and gutter width in collume layouts */
     padding-left: 1.125rem;
     padding-right: 1.125rem;
-    max-width: 1200px;
+    max-width: 1236px;
     margin-left: auto;
     margin-right: auto;
 
@@ -13,5 +13,13 @@
     .wrapper {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    &--b-margin {
+        margin-bottom: 1rem;
+
+        @mixin atSmall {
+            margin-bottom: 3.875rem;
+        }
     }
 }
