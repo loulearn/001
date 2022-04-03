@@ -12,3 +12,8 @@ img {
 * {
   box-sizing: border-box;
 }
+
+/* from vid 28 ~6:30 */
+a {
+  color: $mainOrange;
+}

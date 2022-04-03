@@ -1,7 +1,7 @@
 .wrapper {
     overflow: hidden; /* see vid 26 at ~15:00 - this is about padding and gutter width in collume layouts */
-    padding-left: 1.125rem;
-    padding-right: 1.125rem;
+    padding-left: 18px;
+    padding-right: 18px;
     max-width: 1236px;
     margin-left: auto;
     margin-right: auto;
