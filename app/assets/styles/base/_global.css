@@ -8,12 +8,10 @@ img {
   height: auto;
 }
 
-/* from vid 26 at ~12:00 */
 * {
   box-sizing: border-box;
 }
 
-/* from vid 28 ~6:30 */
 a {
   color: $mainOrange;
 }
