@@ -6,11 +6,16 @@ if (module.hot) {
 }
 
 /* lesson 42 example code below */
+class Adult extends Person {
+  payTaxes() {
+    console.log(this.name + " now owes zero taxes.");
+  }
+}
 
-
-var john = new Person("Jo Doe", "blue");
+var john = new Person("Joe Doe", "y");
 john.greet();
 
-var jane = new Person("Jane Smith", "brown");
+var jane = new Adult("Jane Smith", "e");
 jane.greet();
+jane.payTaxes();
 
