@@ -84,7 +84,6 @@
     }
 
     & > div {
-      float: none;
       display: flex;
     }
 
